@@ -1,16 +1,6 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+@font-face {
+    font-family: "SAP-icons";
+    src: local("SAP-icons"), url("/fonts/SAP-icons.woff") format("woff"); /* available in woff, woff2 and ttf */
+    font-weight: normal;
+    font-style: normal;
 }
